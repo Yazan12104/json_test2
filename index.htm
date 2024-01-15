@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Grid</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+      .color-box {
+        height: 100px;
+        text-align: center;
+        padding-top: 30px;
+      }
+      #dropdownMenuButton1{
+        background: linear-gradient(to top ,#FFFF66,#FFCC66,#FF9966,#FF6663);
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      #dropdownMenuButton2{
+        background: linear-gradient(to top ,#99FFFF,#66FFFF,#66FF99,#66FF66);
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      #dropdownMenuButton3{
+        background: linear-gradient(to top ,#FF66FF,#CC66FF,#9966FF,#6666FF);
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      #dropdownMenuButton4{
+        background: linear-gradient(to top ,#CC00FF,#9900FF,#6600FF,#6633FF);
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      .dropdown{
+          position: relative;
+          display: inline-block;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container mt-4">
+      <div class="dropdown row">
+        <div><button
+          class="btn btn-secondary dropdown-toggle"
+          type="button"
+          id="dropdownMenuButton1"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          color_list1
+        </button>
+        <div
+          id="boxs"
+          class="dropdown-menu"
+          aria-labelledby="dropdownMenuButton"
+        ></div></div>
+       <div> <button
+          class="btn btn-secondary dropdown-toggle"
+          type="button"
+          id="dropdownMenuButton2"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          color_list2
+        </button>
+        <div
+          id="boxs1"
+          class="dropdown-menu"
+          aria-labelledby="dropdownMenuButton"
+        ></div></div>
+      <div>  <button
+        class="btn btn-secondary dropdown-toggle"
+        type="button"
+        id="dropdownMenuButton3"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        color_list3
+      </button>
+      <div
+        id="boxs2"
+        class="dropdown-menu"
+        aria-labelledby="dropdownMenuButton"
+      ></div></div>
+    <div>  <button
+      class="btn btn-secondary dropdown-toggle"
+      type="button"
+      id="dropdownMenuButton4"
+      data-toggle="dropdown"
+      aria-haspopup="true"
+      aria-expanded="false"
+    >
+      color_list4
+    </button>
+    <div
+      id="boxs3"
+      class="dropdown-menu"
+      aria-labelledby="dropdownMenuButton"
+    ></div></div>
+  
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
